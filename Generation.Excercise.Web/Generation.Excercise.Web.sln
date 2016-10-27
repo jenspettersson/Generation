@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.Excercise.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.WordReverser", "Generation.WordReverser\Generation.WordReverser.csproj", "{00094FA2-0EA2-4242-8949-E93D2557337F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.WordReverser.Tests", "Generation.WordReverser.Tests\Generation.WordReverser.Tests.csproj", "{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{00094FA2-0EA2-4242-8949-E93D2557337F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00094FA2-0EA2-4242-8949-E93D2557337F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00094FA2-0EA2-4242-8949-E93D2557337F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
