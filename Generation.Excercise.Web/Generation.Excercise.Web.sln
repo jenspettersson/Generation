@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.WordReverser", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.WordReverser.Tests", "Generation.WordReverser.Tests\Generation.WordReverser.Tests.csproj", "{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WordReverser", "WordReverser", "{37CE942A-46E4-4E62-8B73-EBECB49F0D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiceGame", "DiceGame", "{4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.DiceGame", "Generation.DiceGame\Generation.DiceGame.csproj", "{01F20980-B814-4133-884B-7113847F3CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.DiceGame.Tests", "Generation.DiceGame.Tests\Generation.DiceGame.Tests.csproj", "{32C86A40-CC11-41B6-B0AC-B65225641AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.DiceGame.Runner", "Generation.DiceGame.Runner\Generation.DiceGame.Runner.csproj", "{37E708D3-DC83-4D57-9315-7FD13F8DC91D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +37,27 @@ Global
 		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F20980-B814-4133-884B-7113847F3CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F20980-B814-4133-884B-7113847F3CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F20980-B814-4133-884B-7113847F3CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F20980-B814-4133-884B-7113847F3CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C86A40-CC11-41B6-B0AC-B65225641AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C86A40-CC11-41B6-B0AC-B65225641AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C86A40-CC11-41B6-B0AC-B65225641AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C86A40-CC11-41B6-B0AC-B65225641AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00094FA2-0EA2-4242-8949-E93D2557337F} = {37CE942A-46E4-4E62-8B73-EBECB49F0D2A}
+		{280517A7-3CF1-4AF8-BE22-72B3B2C3813D} = {37CE942A-46E4-4E62-8B73-EBECB49F0D2A}
+		{01F20980-B814-4133-884B-7113847F3CE9} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
+		{32C86A40-CC11-41B6-B0AC-B65225641AB2} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
+		{37E708D3-DC83-4D57-9315-7FD13F8DC91D} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
 	EndGlobalSection
 EndGlobal
