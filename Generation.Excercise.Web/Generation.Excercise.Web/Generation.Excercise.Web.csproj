@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DiceGameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PainterController.cs" />
     <Compile Include="Controllers\ReverserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -167,6 +168,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Reverser\Index.cshtml" />
     <Content Include="Views\DiceGame\Index.cshtml" />
+    <Content Include="Views\Painter\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
