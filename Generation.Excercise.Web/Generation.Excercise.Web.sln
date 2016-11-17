@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.DiceGame.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.DiceGame.Runner", "Generation.DiceGame.Runner\Generation.DiceGame.Runner.csproj", "{37E708D3-DC83-4D57-9315-7FD13F8DC91D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Painter", "Painter", "{1EE48FF1-F5EE-4921-9D5D-CDC9F9F0D27C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.Painter", "Generation.Painter\Generation.Painter.csproj", "{7A0176FB-A431-4154-9370-57017F509F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation.Painter.Tests", "Generation.Painter.Tests\Generation.Painter.Tests.csproj", "{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +55,14 @@ Global
 		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37E708D3-DC83-4D57-9315-7FD13F8DC91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0176FB-A431-4154-9370-57017F509F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0176FB-A431-4154-9370-57017F509F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0176FB-A431-4154-9370-57017F509F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0176FB-A431-4154-9370-57017F509F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +73,7 @@ Global
 		{01F20980-B814-4133-884B-7113847F3CE9} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
 		{32C86A40-CC11-41B6-B0AC-B65225641AB2} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
 		{37E708D3-DC83-4D57-9315-7FD13F8DC91D} = {4AA0CFE4-CC80-407F-80E7-27FEA8D92AE3}
+		{7A0176FB-A431-4154-9370-57017F509F67} = {1EE48FF1-F5EE-4921-9D5D-CDC9F9F0D27C}
+		{EC3F74C6-84B2-4078-BD0E-F5FAF295B79D} = {1EE48FF1-F5EE-4921-9D5D-CDC9F9F0D27C}
 	EndGlobalSection
 EndGlobal
